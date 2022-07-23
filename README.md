@@ -16,21 +16,21 @@ The Operationalize ML project contains a Machine Learning Microservice, built on
 
 ## START HERE
 
-### Step 0
+### Step 1
 - Fork this repo and clone it to your local workstation (obviously)
 
-### Step 1: Install dependencies
+### Step 2: Install dependencies
 - 
 - Set up the environment by running `make setup`. This will create a virtual environment in your home directory called `.devops`
 - Install dependencies by running `make install`
 - (Optionally) Lint application (requires hadolint)
 
-### Step 2: Run Docker container
+### Step 3: Run Docker container
 - Run the application on docker by calling `./run_docker.sh`
 
-### Step 3: Upload to Docker Hub
+### Step 4: Upload to Docker Hub
 - In the `./upload_docker.sh` file, edit the dockerpath (line 8) and change the docker username to a personalized one (or leave it as is, to use the public marviflame89/udacityproject4:v2.10.9)
 - To upload to docker hub, run `./upload_docker.sh`
 
-### Step 4: Kubernetes deployment
+### Step 5: Kubernetes deployment
 - To deploy to kubernetes, run `./run_kubernetes.sh`
