@@ -11,19 +11,19 @@ The Operationalize ML project contains a Machine Learning Microservice, built on
 - Run the deployed application in a Kubernetes cluster
 - Integrate with CircleCI for continuous integration
 
-## Requirements
+## The requirements
  - Python 3.7
 
 ## START HERE
 
 ### Step 1
-- Fork this repo and clone it to your local workstation (obviously)
+-  Clone this repo to your local workstation
 
-### Step 2: Install dependencies
+### Step 2: Go ahead to install dependencies
 - 
 - Set up the environment by running `make setup`. This will create a virtual environment in your home directory called `.devops`
 - Install dependencies by running `make install`
-- (Optionally) Lint application (requires hadolint)
+- Lint application (requires hadolint)
 
 ### Step 3: Run Docker container
 - Run the application on docker by calling `./run_docker.sh`
