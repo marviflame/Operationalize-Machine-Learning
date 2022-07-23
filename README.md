@@ -29,7 +29,7 @@ The Operationalize ML project contains a Machine Learning Microservice, built on
 
 ### Step 4: Upload to Docker Hub
 - In the `./upload_docker.sh` file, edit the dockerpath (line 8) and change the docker username to a personalized one (or leave it as is, to use the public marviflame89/udacityproject4:v2.10.9)
-- Upload to docker hub by using, run `./upload_docker.sh`
+- Upload to docker hub by using `./upload_docker.sh`
 
 ### Step 5: Kubernetes deployment
-- Deploy to kubernetes by calling, run `./run_kubernetes.sh`
+- Deploy to kubernetes by calling `./run_kubernetes.sh`
