@@ -32,4 +32,4 @@ The Operationalize ML project contains a Machine Learning Microservice, built on
 - Upload to docker hub by using, run `./upload_docker.sh`
 
 ### Step 5: Kubernetes deployment
-- deploy to kubernetes by calling, run `./run_kubernetes.sh`
+- Deploy to kubernetes by calling, run `./run_kubernetes.sh`
